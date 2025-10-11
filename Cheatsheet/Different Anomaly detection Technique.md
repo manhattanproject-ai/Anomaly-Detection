@@ -2,6 +2,8 @@
 
 Anomaly detection techniques are diverse and are typically categorized based on the underlying model's approach to learning "normal" data and identifying deviations.
 
+<img width="1020" height="736" alt="image" src="https://github.com/user-attachments/assets/136c7bd0-ccab-427d-b89e-1e0cac94efa0" />
+
 Here are the different types of anomaly detection techniques:
 
 ## 1. Statistical Methods 📊
