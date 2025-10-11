@@ -41,3 +41,6 @@ Scenario: A company uses a cybersecurity system to monitor login attempts to its
 * Classification: This is a Collective Anomaly because each individual login location is plausible for a traveling employee, but the sequence of successful logins from three distinct global locations within minutes is physically impossible for one person.
 * Implication: This pattern suggests a coordinated attack or a compromised account being used simultaneously by multiple malicious actors.
 * Detection Challenge: Identifying this requires models capable of analyzing the sequence and cluster of data points (e.g., time-series analysis or sequence-aware models) rather than flagging any single data point.
+
+
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/46cdb89c-a11e-4c60-a480-26b17af57e95" />
