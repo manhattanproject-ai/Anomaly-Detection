@@ -43,4 +43,3 @@ Scenario: A company uses a cybersecurity system to monitor login attempts to its
 * Detection Challenge: Identifying this requires models capable of analyzing the sequence and cluster of data points (e.g., time-series analysis or sequence-aware models) rather than flagging any single data point.
 
 
-<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/46cdb89c-a11e-4c60-a480-26b17af57e95" />
