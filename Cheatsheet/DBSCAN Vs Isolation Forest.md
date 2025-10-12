@@ -12,3 +12,15 @@ The choice between DBSCAN and Isolation Forest (iForest) for anomaly detection d
 |Dimensionality|	Less effective for High-Dimensional Data: Performance degrades quickly in very high dimensions (due to the "curse of dimensionality") because distance calculations become less meaningful.|	Great for High-Dimensional Data: Is not based on distance calculations, making it computationally efficient and well-suited for high-dimensional data.|
 |Computational Cost|	Computationally Intensive: Requires calculating distances between all pairs of points (especially slow on large datasets).|	Computationally Efficient: Uses random partitioning, making it very fast and scalable even on massive datasets.|
 |Parameter Tuning|	Challenging: Highly sensitive to the choice of ϵ (Eps) and Min_samples. Poor parameter selection can drastically change the results.|	Easier: Typically only needs the number of trees and the subsampling size to be set.|
+
+## 🎯 When to Use Which Technique
+
+### 1. Choose Isolation Forest 🌲 when:
+* You have a very large dataset and need a fast, scalable solution.
+* Your data is high-dimensional (many features).
+* You are primarily looking for global outliers (points far removed from all other data).
+
+### Choose DBSCAN 🌐 when:
+* You suspect anomalies are primarily local (only stand out from their immediate cluster).
+* You need to identify clusters of arbitrary, complex shapes in addition to finding outliers.
+* You are comfortable with the increased computational cost and the challenge of tuning hyperparameters.
